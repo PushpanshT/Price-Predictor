@@ -1,0 +1,67 @@
+{
+  "trained_at": "2026-10-16T11:44:05.054413",
+  "categories": [
+    "Laptop",
+    "Car",
+    "House",
+    "Furniture"
+  ],
+  "best_models": {
+    "Laptop": {
+      "model_name": "Linear Regression",
+      "R2": 0.9019,
+      "MAE": 4456.41,
+      "RMSE": 5785.6,
+      "model_file": "laptop_best_model.joblib"
+    },
+    "Car": {
+      "model_name": "Linear Regression",
+      "R2": 0.8203,
+      "MAE": 92670.3,
+      "RMSE": 117882.92,
+      "model_file": "car_best_model.joblib"
+    },
+    "House": {
+      "model_name": "Linear Regression",
+      "R2": 0.4639,
+      "MAE": 6029566.74,
+      "RMSE": 9240984.16,
+      "model_file": "house_best_model.joblib"
+    },
+    "Furniture": {
+      "model_name": "Random Forest",
+      "R2": 0.8997,
+      "MAE": 749.79,
+      "RMSE": 1211.93,
+      "model_file": "furniture_best_model.joblib"
+    }
+  },
+  "model_rankings": {
+    "Laptop": [
+      "Linear Regression",
+      "Random Forest",
+      "Extra Trees",
+      "Decision Tree"
+    ],
+    "Car": [
+      "Linear Regression",
+      "Extra Trees",
+      "Random Forest",
+      "Decision Tree"
+    ],
+    "House": [
+      "Linear Regression",
+      "Extra Trees",
+      "Random Forest",
+      "Decision Tree"
+    ],
+    "Furniture": [
+      "Random Forest",
+      "Extra Trees",
+      "Linear Regression",
+      "Decision Tree"
+    ]
+  },
+  "is_synthetic_dataset": true,
+  "disclosure": "PriceWise AI models are trained on synthetic benchmark data for academic and evaluation purposes. Real-world commercial transactions require verified appraiser inspection."
+}
