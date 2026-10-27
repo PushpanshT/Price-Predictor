@@ -1,0 +1,322 @@
+{
+  "Laptop": {
+    "Linear Regression": {
+      "MAE": 4456.41,
+      "RMSE": 5785.6,
+      "R2": 0.9019,
+      "feature_importances": {
+        "brand_Apple": 14286.135,
+        "condition_Fair": 9900.1827,
+        "processor_Intel i3": 8570.8743,
+        "condition_New": 8569.6288,
+        "processor_Apple M2": 7927.7818,
+        "brand_Acer": 7290.5448,
+        "gpu_NVIDIA RTX": 6734.1821,
+        "product_age_years": 6131.1991,
+        "year": 6131.1991,
+        "gpu_Integrated": 5643.281,
+        "brand_Lenovo": 5143.2711,
+        "brand_MSI": 4212.875,
+        "model_Model_47": 4197.3644,
+        "model_Model_63": 4175.047,
+        "model_Model_25": 3731.5559
+      }
+    },
+    "Decision Tree": {
+      "MAE": 8175.43,
+      "RMSE": 10998.44,
+      "R2": 0.6456,
+      "feature_importances": {
+        "product_age_years": 0.4429,
+        "brand_Apple": 0.0971,
+        "gpu_NVIDIA RTX": 0.0732,
+        "ram_gb": 0.0569,
+        "condition_New": 0.0488,
+        "condition_Fair": 0.0344,
+        "processor_Intel i3": 0.033,
+        "processor_Apple M2": 0.0247,
+        "year": 0.0201,
+        "storage_gb": 0.0199,
+        "condition_Like New": 0.0143,
+        "screen_inches": 0.0135,
+        "gpu_Integrated": 0.0132,
+        "brand_MSI": 0.0131,
+        "condition_Good": 0.013
+      }
+    },
+    "Random Forest": {
+      "MAE": 5360.77,
+      "RMSE": 7339.02,
+      "R2": 0.8422,
+      "feature_importances": {
+        "product_age_years": 0.3305,
+        "year": 0.1158,
+        "brand_Apple": 0.1011,
+        "gpu_NVIDIA RTX": 0.0661,
+        "ram_gb": 0.0498,
+        "condition_New": 0.0485,
+        "condition_Fair": 0.0359,
+        "processor_Intel i3": 0.0281,
+        "processor_Apple M2": 0.0246,
+        "storage_gb": 0.0213,
+        "gpu_Integrated": 0.0198,
+        "brand_MSI": 0.0152,
+        "condition_Like New": 0.0133,
+        "condition_Good": 0.0117,
+        "screen_inches": 0.0117
+      }
+    },
+    "Extra Trees": {
+      "MAE": 6236.39,
+      "RMSE": 8084.34,
+      "R2": 0.8085,
+      "feature_importances": {
+        "product_age_years": 0.2268,
+        "year": 0.2177,
+        "brand_Apple": 0.0992,
+        "gpu_NVIDIA RTX": 0.0827,
+        "condition_Fair": 0.0512,
+        "condition_New": 0.0442,
+        "ram_gb": 0.0344,
+        "processor_Intel i3": 0.0312,
+        "processor_Apple M2": 0.0253,
+        "condition_Good": 0.0181,
+        "condition_Like New": 0.0137,
+        "brand_MSI": 0.0136,
+        "gpu_Integrated": 0.0128,
+        "storage_gb": 0.0111,
+        "brand_Asus": 0.0077
+      }
+    }
+  },
+  "Car": {
+    "Linear Regression": {
+      "MAE": 92670.3,
+      "RMSE": 117882.92,
+      "R2": 0.8203,
+      "feature_importances": {
+        "brand_Toyota": 222166.9144,
+        "brand_Maruti Suzuki": 181748.8064,
+        "condition_Fair": 155749.1361,
+        "condition_New": 151968.8803,
+        "mileage_km": 121774.2871,
+        "model_Model_17": 107482.0062,
+        "fuel_type_Electric": 105819.15,
+        "brand_Tata": 102584.961,
+        "model_Model_61": 95829.8726,
+        "brand_Mahindra": 89247.575,
+        "model_Model_91": 86933.9747,
+        "model_Model_56": 81942.4245,
+        "model_Model_33": 78421.2855,
+        "model_Model_54": 78369.7021,
+        "model_Model_76": 77045.6217
+      }
+    },
+    "Decision Tree": {
+      "MAE": 129034.19,
+      "RMSE": 173949.53,
+      "R2": 0.6087,
+      "feature_importances": {
+        "mileage_km": 0.3077,
+        "product_age_years": 0.222,
+        "brand_Toyota": 0.0989,
+        "brand_Maruti Suzuki": 0.0654,
+        "condition_Fair": 0.0468,
+        "condition_New": 0.0371,
+        "brand_Kia": 0.0348,
+        "brand_Mahindra": 0.0327,
+        "year": 0.0224,
+        "fuel_type_Electric": 0.0152,
+        "condition_Like New": 0.0144,
+        "fuel_type_Petrol": 0.0064,
+        "fuel_type_Diesel": 0.0054,
+        "fuel_type_CNG": 0.0051,
+        "model_Model_79": 0.005
+      }
+    },
+    "Random Forest": {
+      "MAE": 96366.08,
+      "RMSE": 130287.79,
+      "R2": 0.7805,
+      "feature_importances": {
+        "mileage_km": 0.3171,
+        "year": 0.1371,
+        "product_age_years": 0.1242,
+        "brand_Toyota": 0.0954,
+        "brand_Maruti Suzuki": 0.0567,
+        "condition_Fair": 0.0416,
+        "condition_New": 0.0257,
+        "brand_Mahindra": 0.022,
+        "brand_Kia": 0.0212,
+        "condition_Like New": 0.0141,
+        "brand_Tata": 0.014,
+        "fuel_type_Electric": 0.0114,
+        "brand_Hyundai": 0.0092,
+        "condition_Good": 0.009,
+        "fuel_type_Petrol": 0.0064
+      }
+    },
+    "Extra Trees": {
+      "MAE": 92276.59,
+      "RMSE": 128243.11,
+      "R2": 0.7873,
+      "feature_importances": {
+        "mileage_km": 0.2422,
+        "product_age_years": 0.116,
+        "year": 0.115,
+        "brand_Toyota": 0.1038,
+        "brand_Maruti Suzuki": 0.0633,
+        "condition_Fair": 0.0602,
+        "brand_Kia": 0.032,
+        "brand_Mahindra": 0.031,
+        "condition_New": 0.0294,
+        "fuel_type_Electric": 0.0157,
+        "condition_Good": 0.0141,
+        "brand_Tata": 0.012,
+        "condition_Like New": 0.0117,
+        "fuel_type_Diesel": 0.0082,
+        "fuel_type_CNG": 0.0074
+      }
+    }
+  },
+  "House": {
+    "Linear Regression": {
+      "MAE": 6029566.74,
+      "RMSE": 9240984.16,
+      "R2": 0.4639,
+      "feature_importances": {
+        "area_sqft": 7929075.9285,
+        "year": 1087219.2451,
+        "product_age_years": 1087219.2451,
+        "bathrooms": 500268.5964,
+        "bedrooms": 245445.765
+      }
+    },
+    "Decision Tree": {
+      "MAE": 9283765.53,
+      "RMSE": 14359439.23,
+      "R2": -0.2945,
+      "feature_importances": {
+        "area_sqft": 0.6476,
+        "product_age_years": 0.1572,
+        "bathrooms": 0.0913,
+        "year": 0.058,
+        "bedrooms": 0.0459
+      }
+    },
+    "Random Forest": {
+      "MAE": 7192626.88,
+      "RMSE": 10741718.87,
+      "R2": 0.2756,
+      "feature_importances": {
+        "area_sqft": 0.6799,
+        "year": 0.0988,
+        "product_age_years": 0.0904,
+        "bedrooms": 0.0658,
+        "bathrooms": 0.0651
+      }
+    },
+    "Extra Trees": {
+      "MAE": 7090408.21,
+      "RMSE": 10708719.21,
+      "R2": 0.2801,
+      "feature_importances": {
+        "area_sqft": 0.6015,
+        "product_age_years": 0.106,
+        "year": 0.1043,
+        "bathrooms": 0.0966,
+        "bedrooms": 0.0915
+      }
+    }
+  },
+  "Furniture": {
+    "Linear Regression": {
+      "MAE": 1163.36,
+      "RMSE": 1535.96,
+      "R2": 0.8388,
+      "feature_importances": {
+        "model_Chair": 4382.6644,
+        "model_Bed": 3826.1591,
+        "model_Desk": 2386.8354,
+        "condition_Fair": 2282.5671,
+        "model_Sofa": 1946.1214,
+        "material_Wood": 1892.6874,
+        "condition_New": 1857.9432,
+        "material_Plastic": 1155.8557,
+        "year": 1150.804,
+        "product_age_years": 1150.804,
+        "condition_Like New": 896.4835,
+        "material_Fabric": 753.1942,
+        "model_Dining Table": 619.4597,
+        "condition_Good": 471.8597,
+        "model_Wardrobe": 377.7596
+      }
+    },
+    "Decision Tree": {
+      "MAE": 1048.92,
+      "RMSE": 1608.33,
+      "R2": 0.8233,
+      "feature_importances": {
+        "product_age_years": 0.2636,
+        "model_Chair": 0.2222,
+        "model_Desk": 0.1317,
+        "condition_Fair": 0.0694,
+        "year": 0.0673,
+        "model_Bed": 0.0587,
+        "material_Wood": 0.0581,
+        "condition_New": 0.0468,
+        "condition_Good": 0.016,
+        "model_Sofa": 0.0109,
+        "material_Plastic": 0.0096,
+        "condition_Like New": 0.0078,
+        "model_Dining Table": 0.0056,
+        "material_Metal": 0.0054,
+        "material_Engineered Wood": 0.0051
+      }
+    },
+    "Random Forest": {
+      "MAE": 749.79,
+      "RMSE": 1211.93,
+      "R2": 0.8997,
+      "feature_importances": {
+        "product_age_years": 0.2164,
+        "model_Chair": 0.1994,
+        "year": 0.1351,
+        "model_Bed": 0.1032,
+        "model_Desk": 0.102,
+        "condition_Fair": 0.0581,
+        "material_Wood": 0.0529,
+        "condition_New": 0.0384,
+        "condition_Good": 0.018,
+        "condition_Like New": 0.0128,
+        "model_Sofa": 0.0104,
+        "material_Plastic": 0.0102,
+        "brand_Local": 0.0071,
+        "model_Wardrobe": 0.0064,
+        "material_Engineered Wood": 0.0055
+      }
+    },
+    "Extra Trees": {
+      "MAE": 802.89,
+      "RMSE": 1322.09,
+      "R2": 0.8806,
+      "feature_importances": {
+        "model_Chair": 0.2133,
+        "year": 0.1668,
+        "product_age_years": 0.1606,
+        "model_Desk": 0.1228,
+        "condition_Fair": 0.0745,
+        "model_Bed": 0.0721,
+        "material_Wood": 0.0551,
+        "condition_New": 0.0311,
+        "condition_Good": 0.0253,
+        "model_Sofa": 0.0166,
+        "material_Plastic": 0.0126,
+        "condition_Like New": 0.0079,
+        "material_Engineered Wood": 0.0063,
+        "brand_Local": 0.0055,
+        "model_Wardrobe": 0.0051
+      }
+    }
+  }
+}
